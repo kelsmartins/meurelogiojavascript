@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Protest Strike', sans-serif;
+    box-sizing: border-box;
+}
+
+.window-clock-box {
+    height: 100vh;
+    background-image: linear-gradient(98deg, pink, cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-pulse {
+    background-color: black;
+    height: 225px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 35px 35px 0px 0px;
+    margin-bottom: -1px;
+}
+
+.top-pulse-border-top{
+    width: 95%;
+    height: 20%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 50px 50px 0px 0px;
+}
+
+.top-pulse-border {
+    width: 95%;
+    height: 70%;
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-pulse-border-bot {
+    width: 95%;
+    height: 20%;
+    background-color: rgb(16, 16, 16);
+} 
+   
+
+.top-pulse-hole {
+    background-color: rgb(125, 236, 236);
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px black;
+}
+
+.clock-box {
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-time-area {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-time {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(119, 119, 119);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+    color: white;
+    font-size: 33px;
+}
+
+
+
+.bottom-pulse {
+    background-color: black;
+    height: 150px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 0px 0px 35px 35px; 
+    margin-top: -1px;
+}
+
+.bottom-pulse-border-top {
+    width: 95%;
+    height: 10%;
+    background-color: rgb(16, 16, 16);
+}
+
+.bottom-pulse-border {
+    width: 95%;
+    height: 70%;
+    background-color: rgb(16, 16, 16);
+    
+}
+
+.bottom-pulse-border-bot {
+    width: 95%;
+    height: 20%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 0px 0px 35px 35px;
+}
